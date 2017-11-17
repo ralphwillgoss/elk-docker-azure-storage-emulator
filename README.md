@@ -1,7 +1,7 @@
 ## Overview
 An experimental Docker image, which allows you to connect an ELK stack running in a container on Windows 10, to your local Azure Storage Emulator.
 
-# Prerequisites
+## Prerequisites
 You should read the prerequisites section of using this container available at http://elk-docker.readthedocs.io/.
 
 **Some things to note:**

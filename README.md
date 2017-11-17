@@ -13,7 +13,7 @@ You should read the prerequisites section of using this container available at h
 ## Building Docker Image
 1. Ensure Docker for Windows is running.
 2. Clone the repository
-3. Copy the /logstash-input-azurewadtable/azurewadtable.conf.template to a file called azurewadtable.conf
+3. Copy the __/logstash-input-azurewadtable/azurewadtable.conf.template__ to a file called __azurewadtable.conf__
 4. Add as many input sections as you need, for the table(s) you wish to monitor
 5. Run build.cmd and an image called __*elk_azure_storage_emulator*__ will be created
 

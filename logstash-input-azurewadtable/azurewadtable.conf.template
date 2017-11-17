@@ -1,0 +1,18 @@
+input
+{
+	azurewadtable
+	{ 
+		account_name => "devstoreaccount1"
+        access_key => "Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw=="
+        table_name => "<YourTableName>"
+		use_storage_emulator => true
+		use_reverse_timestamp => false
+    }
+}
+output
+{
+	elasticsearch
+	{
+		hosts => ["localhost"]
+	}
+}

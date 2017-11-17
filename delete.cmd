@@ -1,0 +1,1 @@
+docker rmi -f elk_azure_storage_emulator

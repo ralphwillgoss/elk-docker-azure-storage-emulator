@@ -8,7 +8,7 @@ You should read the prerequisites section of using this container available at h
 * When the contaniner has started for the first time, no index will exist for Elastic Search.
   You need some data in the table you have configured to monitor, before you can create the elastic search index.
 
-* You need to assign at least 4096MB of RAM docker or Elastic Search won't start.
+* You need to assign at least 4096MB of RAM to Docker or Elastic Search won't start.
 
 ## Building Docker Image
 1. Ensure Docker for Windows is running.
@@ -23,6 +23,10 @@ You should read the prerequisites section of using this container available at h
 * *stop.cmd* - stop the container
 * *remove.cmd* - remove the container
 * *delete.cmd* - delete the container image
+
+## Todo
+* Add some tests to the modified azurewadtable plugin
+* Refactor customised azurewadtable.rb to take advantage of using some of the other Azure Storage clients ctro's
 
 ## Note on Security Warning
 When building the image you will receive a security warning:

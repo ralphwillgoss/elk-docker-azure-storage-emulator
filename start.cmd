@@ -1,1 +1,1 @@
-docker start -ait elk_emulator
+docker start -ai elk_emulator

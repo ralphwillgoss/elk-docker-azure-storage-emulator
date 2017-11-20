@@ -18,7 +18,7 @@ You should read the prerequisites section of using this container available at h
 5. Run build.cmd and an image called __*elk_azure_storage_emulator*__ will be created
 
 ## Running
-* *run.cmd* - start up a new container
+* *run.cmd* - start up a new container (access Kibana via http://localhost:5601)
 * *start.cmd* - start a stopped container
 * *stop.cmd* - stop the container
 * *remove.cmd* - remove the container

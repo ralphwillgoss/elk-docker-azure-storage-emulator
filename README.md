@@ -10,12 +10,14 @@ You should read the prerequisites section of using this container available at h
 
 * You need to assign at least 4096MB of RAM to Docker or Elastic Search won't start.
 
-## Building Docker Image
-1. Ensure Docker for Windows is running.
-2. Clone the repository
-3. Copy the __/logstash-input-azurewadtable/azurewadtable.conf.template__ to a file called __azurewadtable.conf__
-4. Add as many input sections as you need, for the table(s) you wish to monitor
-5. Run build.cmd and an image called __*elk_azure_storage_emulator*__ will be created
+## Build and Run Docker Image
+1. Ensure Docker for Windows is running
+2. Ensure you are in Linux mode for running containers
+3. Clone the repository
+4. Copy the template config file __/logstash-input-azurewadtable/azurewadtable.conf.template__ to a config file called __/logstash-input-azurewadtable/azurewadtable.conf__
+5. Add as many input sections as you need, for the table(s) you wish to monitor
+6. Run build.cmd and an image called __*elk_azure_storage_emulator*__ will be created
+7. Run run.cmd to start the image for the first time and load it into the container
 
 ## Running
 * *run.cmd* - start up a new container (access Kibana via http://localhost:5601)

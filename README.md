@@ -5,7 +5,7 @@ An experimental Docker image, which allows you to connect an ELK stack running i
 You should read the prerequisites section of using this container available at http://elk-docker.readthedocs.io/.
 
 **Some things to note:**
-* When the contaniner has started for the first time, no index will exist for Elastic Search.
+* When the container has started for the first time, no index will exist for Elastic Search.
   You need some data in the table you have configured to monitor, before you can create the elastic search index.
 
 * You need to assign at least 4096MB of RAM to Docker or Elastic Search won't start.
